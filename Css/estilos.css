@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap");
+body {
+  overflow-x: hidden;
+  background: rgb(36, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 0, 0, 1) 0%,
+    rgba(101, 92, 154, 1) 98%
+  );
+  color: white;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+header {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+table {
+  text-align: center;
+  border: 2px solid white;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+.table-1 {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+.img-1 {
+  width: 80px;
+  height: 100px;
+}
+
+table th {
+  padding: 5px;
+  border: 2px solid white;
+}
+
+table td {
+    position: relative;
+  padding: 5px;
+  border: 2px solid white;
+}
+tr {
+  margin: 4px 2px;
+  transition: 0.2s;
+}
+tr:hover {
+  background-color: #8c8c8c;
+}
+a {
+  padding: 7px;
+  text-decoration: none;
+  color: white;
+  background-color: #3C6C64;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+a:hover {   
+  text-decoration: 2px solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+  background-color: #62C1B1;
+}
+td[scope="row"] {
+  font-weight: bold;
+}
+ul{
+    border: 1px solid white;
+    padding: 5px;
+    margin: 0;
+    text-decoration: none;
+
+}
+#titulo-2{
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.span-datos{
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+}
+#end{
+    background-color: inherit;
+}
